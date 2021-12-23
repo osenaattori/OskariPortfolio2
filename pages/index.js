@@ -18,7 +18,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import thumbInkdrop from '../public/images/works/osesää.png'
+
 
 const Home = () => (
   <Layout>
