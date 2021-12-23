@@ -17,7 +17,7 @@ const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={50} mb={4}>
-       työt
+       Työt
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>

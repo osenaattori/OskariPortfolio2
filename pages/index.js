@@ -155,7 +155,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/posts">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
+              Youtube videot
             </Button>
           </NextLink>
         </Box>
