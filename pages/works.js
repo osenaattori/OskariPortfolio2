@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/ose.png'
+import thumbInkdrop from 'public\images\works\ose.png'
 
 const Works = () => (
   <Layout title="Works">
