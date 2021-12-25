@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid,  } from '@chakra-ui/react'
+import { Box, Container, Heading, SimpleGrid,  } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 
 
@@ -14,6 +14,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
       
       <a href="https://osesaa.netlify.app/">Sää sivusto</a>
+  
 
       
         
