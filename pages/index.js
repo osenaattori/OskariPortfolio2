@@ -54,7 +54,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/Oskari.jpg"
+            src="/images/takuya.jpg"
             alt="Profile image"
           />
         </Box>
@@ -90,7 +90,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Peruskoulukäyt&apos;y Nykyää Osaosso amiksessa. 
+          Peruskoulukäyty Nykyää Osaosso amiksessa. 
         </BioSection>
         
         <BioSection>
