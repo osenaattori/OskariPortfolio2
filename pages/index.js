@@ -9,7 +9,6 @@ import {
   Button,
   List,
   ListItem,
- 
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -19,7 +18,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-
 
 const Home = () => (
   <Layout>
@@ -31,13 +29,13 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-       Hei, Olen Frontend Developer Oulusta.
+        Hei, Olen Frontend Developer Oulusta.
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-          Oskari Topias Hirvonen
+            Oskari Topias Hirvonen
           </Heading>
           <p> Portfolio</p>
         </Box>
@@ -62,22 +60,16 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-         Tietoa
+          Tietoa
         </Heading>
         <Paragraph>
-         Oskari on koodauksesta kiinnostunut frontend developer ja tykkään myös hakkeroinnista.  {' '}
+          Olen koodauksesta kiinnostunut frontend developer ja tykkään myös
+          hakkeroinnista.{' '}
           <NextLink href="/works/inkdrop">
             <Link>työt </Link>
           </NextLink>
           .
         </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Minun Työt
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
 
       <Section delay={0.2}>
@@ -86,16 +78,16 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2005</BioYear>
-         Syntynyt Oulussa.
+          Syntynyt Oulussa.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Peruskoulukäyty Nykyää Osaosso amiksessa. 
+          Opiskelen Osaossa Tieto-ja viestintätekniikkaa.
         </BioSection>
-        
+
         <BioSection>
           <BioYear>2021</BioYear>
-         Opiskelen IT-Tukhenkilöksi.
+          Opiskelen IT-Tukhenkilöksi, mutta haluan ohjelmoijaksi.
         </BioSection>
       </Section>
 
@@ -104,7 +96,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Musiiikki ja vapaaaika kavereitten kanssa olemin on lempijuttujani.
+          Musiikin tekeminen ja vapaa-ajalla kavereiden kanssa oleminen.
         </Paragraph>
       </Section>
 
@@ -115,38 +107,20 @@ const Home = () => (
         <List>
           <ListItem>
             <Link href="https://github.com/osenaattori" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                
-              >
+              <Button variant="ghost" colorScheme="teal">
                 @osenaattori
-              </Button>
-            </Link>
-          </ListItem>
-         
-         
-          <ListItem>
-            <Link href="https://instagram.com/oskari.hirvonen" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-               
-              >
-                @oskari.hirvonen
               </Button>
             </Link>
           </ListItem>
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-         
           <GridItem
             href="https://osesaa.netlify.app/"
             title="Sää"
             thumbnail={thumbInkdrop}
           >
-            Sää sivusto
+            Sääsivusto
           </GridItem>
         </SimpleGrid>
 
