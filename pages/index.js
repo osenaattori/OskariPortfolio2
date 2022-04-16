@@ -67,7 +67,6 @@ const Home = () => (
           <NextLink href="/works/inkdrop">
             <Link> Nettisivuni </Link>
           </NextLink>
-          .
         </Paragraph>
       </Section>
 
