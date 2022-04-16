@@ -87,7 +87,7 @@ const Home = () => (
 
         <BioSection>
           <BioYear>2021</BioYear>
-          Opiskelen IT-Tukhenkilöksi, mutta haluan ohjelmoijaksi.
+          Opiskelen IT-Tukihenkilöksi, mutta haluan ohjelmoijaksi.
         </BioSection>
       </Section>
 
