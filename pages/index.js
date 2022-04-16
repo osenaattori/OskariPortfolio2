@@ -63,10 +63,9 @@ const Home = () => (
           Tietoa
         </Heading>
         <Paragraph>
-          Olen koodauksesta kiinnostunut frontend developer ja tykkään myös
-          hakkeroinnista.{' '}
+          Olen koodauksesta kiinnostunut frontend developer.{' '}
           <NextLink href="/works/inkdrop">
-            <Link>työt </Link>
+            <Link> Nettisivuni </Link>
           </NextLink>
           .
         </Paragraph>
