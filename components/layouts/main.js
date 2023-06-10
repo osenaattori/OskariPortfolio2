@@ -7,6 +7,7 @@ const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
+      <meta name="google-site-verification" content="Jn-AAWBsISv7wZz2gZtLZ-NV5l7d30iN-WvZHQK1FxA" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Oskari kotisivusto" />
         <meta name="author" content="Oskari Hirvonen" />
